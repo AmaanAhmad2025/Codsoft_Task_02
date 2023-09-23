@@ -8,17 +8,17 @@ def div(a,b):
     try:
         return a/b
     except ZeroDivisionError:
-        print("Infinite")
+        print("Indefinite")
 def mod(a,b):
     try:
         return a%b
     except ZeroDivisionError:
-        print("Infinite")
+        print("Indefinite")
 def floorDiv(a,b):
     try:
         return a//b
     except ZeroDivisionError:
-        print("Infinite")
+        print("Indefinite")
 
 a = '''
 1)- Addition
